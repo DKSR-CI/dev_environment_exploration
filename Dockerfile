@@ -14,7 +14,8 @@ FROM base
 COPY requirements.txt .
 
 # Install Python dependencies - this will install in the `base` conda env
-RUN conda install --file requirements.txt
+# RUN conda install -c conda-forge -c pypi --file requirements.txt
+RUN /opt/conda/bin/pip install -r requirements.txt
 
 COPY . .
 
