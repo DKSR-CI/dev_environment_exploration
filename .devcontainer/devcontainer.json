@@ -1,0 +1,39 @@
+{
+	"name": "dev_environment_exploration",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	// "features": {},
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "",
+
+	// 👇 Configure tool-specific properties.
+	"customizations": {
+        "vscode": {
+            "extensions":[
+				"ms-python.python",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-keymap",
+				"njpwerner.autodocstring",
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"mechatroner.rainbow-csv"
+			]
+            }
+        },
+
+	"mounts": [
+		"source=c:/Users/MaxSerra/DKSR Daten-Kompetenzzentrum für Städte & Regionen/Aktive Projekte - 15002 - Siegburg_Entdecker/2_Konzept und Material/Inrix-Daten,target=/workspaces/dev_environment_exploration/data/Inrix-Daten,type=bind,consistency=cached"
+	]
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
