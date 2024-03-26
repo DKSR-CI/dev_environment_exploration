@@ -7,11 +7,13 @@
 
 ## Understand Land use relative to transport
 - Where do trips start and end?
-- For each hour of the day, which streets are destinations, which are origins. 
+- For each hour of the day, which streets are destinations, which are origins?
 In this map trips are grouped into 6-hour windows (i.e. 0-6, 7-12, 13-18, 19-23). The code can be modified to use sliders to switch between start/end or time window.
 ![example map showing trip starts between 6-11](images/trip_starts_6-11.png)
 ![example map showing trip ends between 6-11](images/trip_ends_6-11.png)
     - ToDo: Separate weekday/weekend?
+    - Why this is better than a heat map?: The street data from OSM has additional info like speed limits, direction, etc.
+- which points of interest can be found near these start and end spots?
 
 
 ## Reduce Congestion
