@@ -8,9 +8,9 @@
 ## Understand Land use relative to transport
 - Where do trips start and end?
 - For each hour of the day, which streets are destinations, which are origins. 
-In this map trips are grouped into 6 hour windows. The code can be modified to use sliders to switch between start/end or time window.
-![example map showing trip starts between 7-12](images/trip-starts_7-12.png)
-![example map showing trip ends between 7-12](images/trip_ends_7-12.png)
+In this map trips are grouped into 6-hour windows (i.e. 0-6, 7-12, 13-18, 19-23). The code can be modified to use sliders to switch between start/end or time window.
+![example map showing trip starts between 6-11](images/trip_starts_6-11.png)
+![example map showing trip ends between 6-11](images/trip_ends_6-11.png)
     - ToDo: Separate weekday/weekend?
 
 
