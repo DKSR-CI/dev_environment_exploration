@@ -7,7 +7,12 @@
 
 ## Understand Land use relative to transport
 - Where do trips start and end?
-- For each hour of the day, which streets are destinations, which are origins. Separate weekday/weekend?
+- For each hour of the day, which streets are destinations, which are origins. 
+In this map trips are grouped into 6 hour windows. The code can be modified to use sliders to switch between start/end or time window.
+![example map showing trip starts between 7-12](images/trip-starts_7-12.png)
+![example map showing trip ends between 7-12](images/trip_ends_7-12.png)
+    - ToDo: Separate weekday/weekend?
+
 
 ## Reduce Congestion
 - Where are the congested zones? What time are they congested? Plot routes which pass through congested zones. Can they be diverted?
